@@ -24,7 +24,7 @@ count = 1
 while True:
     #십의 자리를 담을 변수
     ten = n%10
-    #일의 자리를 담을 변수
+    #일의 자리를 담을 변수, 두 수를 더한 값이 10을 넘을 수 있기에 10 모듈로 연산
     digit = (ten + n//10)%10
     
     # 새로 조합된 숫자
@@ -38,6 +38,6 @@ while True:
     #그렇지 않다면 n에 tmp값을 할당, count 변수 1 증가
     n = tmp
     count += 1
-    @
+ 
 # count 변수 출력
 print(count)
