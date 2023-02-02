@@ -38,6 +38,6 @@ while True:
     #그렇지 않다면 n에 tmp값을 할당, count 변수 1 증가
     n = tmp
     count += 1
- 
+
 # count 변수 출력
 print(count)
